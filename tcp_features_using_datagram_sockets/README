@@ -1,0 +1,15 @@
+To use sender : 
+	Compile:
+		gcc -o client client.c -w
+	Run:
+		./client receiver_ip port loss
+	where:
+		receiver_ip: ip of the receiver
+		port: port number running receiver
+		loss: Loss parameter (can be 0 or 1)
+
+To use receiver :
+	Compile:
+		gcc -o receiver receiver.c -w
+	Run:
+		./receiver
